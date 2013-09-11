@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14E5818017E0015100D10000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E5817F17E0015100D10000 /* Foundation.framework */; };
+		14E5818217E0015100D10000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E5818117E0015100D10000 /* CoreGraphics.framework */; };
+		14E5818417E0015100D10000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E5818317E0015100D10000 /* UIKit.framework */; };
+		14E5818617E0015100D10000 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E5818517E0015100D10000 /* SpriteKit.framework */; };
+		14E5818C17E0015100D10000 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14E5818A17E0015100D10000 /* InfoPlist.strings */; };
+		14E5818E17E0015100D10000 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E5818D17E0015100D10000 /* main.m */; };
+		14E5819217E0015100D10000 /* ExciteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E5819117E0015100D10000 /* ExciteAppDelegate.m */; };
+		14E5819517E0015100D10000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E5819317E0015100D10000 /* Main.storyboard */; };
+		14E5819817E0015100D10000 /* ExciteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E5819717E0015100D10000 /* ExciteViewController.m */; };
+		14E5819B17E0015100D10000 /* ExciteMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E5819A17E0015100D10000 /* ExciteMyScene.m */; };
+		14E5819D17E0015100D10000 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E5819C17E0015100D10000 /* Spaceship.png */; };
+		14E5819F17E0015100D10000 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E5819E17E0015100D10000 /* Images.xcassets */; };
+		14E581A617E0015100D10000 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E581A517E0015100D10000 /* XCTest.framework */; };
+		14E581A717E0015100D10000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E5817F17E0015100D10000 /* Foundation.framework */; };
+		14E581A817E0015100D10000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E5818317E0015100D10000 /* UIKit.framework */; };
+		14E581B017E0015100D10000 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14E581AE17E0015100D10000 /* InfoPlist.strings */; };
+		14E581B217E0015100D10000 /* ExciteBikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E581B117E0015100D10000 /* ExciteBikeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14E581A917E0015100D10000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14E5817417E0015100D10000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14E5817B17E0015100D10000;
+			remoteInfo = ExciteBike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14E5817C17E0015100D10000 /* ExciteBike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExciteBike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E5817F17E0015100D10000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14E5818117E0015100D10000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14E5818317E0015100D10000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14E5818517E0015100D10000 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		14E5818917E0015100D10000 /* ExciteBike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExciteBike-Info.plist"; sourceTree = "<group>"; };
+		14E5818B17E0015100D10000 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14E5818D17E0015100D10000 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14E5818F17E0015100D10000 /* ExciteBike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExciteBike-Prefix.pch"; sourceTree = "<group>"; };
+		14E5819017E0015100D10000 /* ExciteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExciteAppDelegate.h; sourceTree = "<group>"; };
+		14E5819117E0015100D10000 /* ExciteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExciteAppDelegate.m; sourceTree = "<group>"; };
+		14E5819417E0015100D10000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14E5819617E0015100D10000 /* ExciteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExciteViewController.h; sourceTree = "<group>"; };
+		14E5819717E0015100D10000 /* ExciteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExciteViewController.m; sourceTree = "<group>"; };
+		14E5819917E0015100D10000 /* ExciteMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExciteMyScene.h; sourceTree = "<group>"; };
+		14E5819A17E0015100D10000 /* ExciteMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExciteMyScene.m; sourceTree = "<group>"; };
+		14E5819C17E0015100D10000 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		14E5819E17E0015100D10000 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14E581A417E0015100D10000 /* ExciteBikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExciteBikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E581A517E0015100D10000 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		14E581AD17E0015100D10000 /* ExciteBikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExciteBikeTests-Info.plist"; sourceTree = "<group>"; };
+		14E581AF17E0015100D10000 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14E581B117E0015100D10000 /* ExciteBikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExciteBikeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14E5817917E0015100D10000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E5818217E0015100D10000 /* CoreGraphics.framework in Frameworks */,
+				14E5818417E0015100D10000 /* UIKit.framework in Frameworks */,
+				14E5818617E0015100D10000 /* SpriteKit.framework in Frameworks */,
+				14E5818017E0015100D10000 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E581A117E0015100D10000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E581A617E0015100D10000 /* XCTest.framework in Frameworks */,
+				14E581A817E0015100D10000 /* UIKit.framework in Frameworks */,
+				14E581A717E0015100D10000 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14E5817317E0015100D10000 = {
+			isa = PBXGroup;
+			children = (
+				14E5818717E0015100D10000 /* ExciteBike */,
+				14E581AB17E0015100D10000 /* ExciteBikeTests */,
+				14E5817E17E0015100D10000 /* Frameworks */,
+				14E5817D17E0015100D10000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14E5817D17E0015100D10000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14E5817C17E0015100D10000 /* ExciteBike.app */,
+				14E581A417E0015100D10000 /* ExciteBikeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14E5817E17E0015100D10000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14E5817F17E0015100D10000 /* Foundation.framework */,
+				14E5818117E0015100D10000 /* CoreGraphics.framework */,
+				14E5818317E0015100D10000 /* UIKit.framework */,
+				14E5818517E0015100D10000 /* SpriteKit.framework */,
+				14E581A517E0015100D10000 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14E5818717E0015100D10000 /* ExciteBike */ = {
+			isa = PBXGroup;
+			children = (
+				14E5819017E0015100D10000 /* ExciteAppDelegate.h */,
+				14E5819117E0015100D10000 /* ExciteAppDelegate.m */,
+				14E5819317E0015100D10000 /* Main.storyboard */,
+				14E5819617E0015100D10000 /* ExciteViewController.h */,
+				14E5819717E0015100D10000 /* ExciteViewController.m */,
+				14E5819917E0015100D10000 /* ExciteMyScene.h */,
+				14E5819A17E0015100D10000 /* ExciteMyScene.m */,
+				14E5819C17E0015100D10000 /* Spaceship.png */,
+				14E5819E17E0015100D10000 /* Images.xcassets */,
+				14E5818817E0015100D10000 /* Supporting Files */,
+			);
+			path = ExciteBike;
+			sourceTree = "<group>";
+		};
+		14E5818817E0015100D10000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14E5818917E0015100D10000 /* ExciteBike-Info.plist */,
+				14E5818A17E0015100D10000 /* InfoPlist.strings */,
+				14E5818D17E0015100D10000 /* main.m */,
+				14E5818F17E0015100D10000 /* ExciteBike-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14E581AB17E0015100D10000 /* ExciteBikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				14E581B117E0015100D10000 /* ExciteBikeTests.m */,
+				14E581AC17E0015100D10000 /* Supporting Files */,
+			);
+			path = ExciteBikeTests;
+			sourceTree = "<group>";
+		};
+		14E581AC17E0015100D10000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14E581AD17E0015100D10000 /* ExciteBikeTests-Info.plist */,
+				14E581AE17E0015100D10000 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14E5817B17E0015100D10000 /* ExciteBike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E581B517E0015100D10000 /* Build configuration list for PBXNativeTarget "ExciteBike" */;
+			buildPhases = (
+				14E5817817E0015100D10000 /* Sources */,
+				14E5817917E0015100D10000 /* Frameworks */,
+				14E5817A17E0015100D10000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExciteBike;
+			productName = ExciteBike;
+			productReference = 14E5817C17E0015100D10000 /* ExciteBike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14E581A317E0015100D10000 /* ExciteBikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E581B817E0015100D10000 /* Build configuration list for PBXNativeTarget "ExciteBikeTests" */;
+			buildPhases = (
+				14E581A017E0015100D10000 /* Sources */,
+				14E581A117E0015100D10000 /* Frameworks */,
+				14E581A217E0015100D10000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14E581AA17E0015100D10000 /* PBXTargetDependency */,
+			);
+			name = ExciteBikeTests;
+			productName = ExciteBikeTests;
+			productReference = 14E581A417E0015100D10000 /* ExciteBikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14E5817417E0015100D10000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Excite;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sean Dougherty";
+				TargetAttributes = {
+					14E581A317E0015100D10000 = {
+						TestTargetID = 14E5817B17E0015100D10000;
+					};
+				};
+			};
+			buildConfigurationList = 14E5817717E0015100D10000 /* Build configuration list for PBXProject "ExciteBike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14E5817317E0015100D10000;
+			productRefGroup = 14E5817D17E0015100D10000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14E5817B17E0015100D10000 /* ExciteBike */,
+				14E581A317E0015100D10000 /* ExciteBikeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14E5817A17E0015100D10000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E5818C17E0015100D10000 /* InfoPlist.strings in Resources */,
+				14E5819F17E0015100D10000 /* Images.xcassets in Resources */,
+				14E5819D17E0015100D10000 /* Spaceship.png in Resources */,
+				14E5819517E0015100D10000 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E581A217E0015100D10000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E581B017E0015100D10000 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14E5817817E0015100D10000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E5819B17E0015100D10000 /* ExciteMyScene.m in Sources */,
+				14E5819217E0015100D10000 /* ExciteAppDelegate.m in Sources */,
+				14E5818E17E0015100D10000 /* main.m in Sources */,
+				14E5819817E0015100D10000 /* ExciteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E581A017E0015100D10000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E581B217E0015100D10000 /* ExciteBikeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14E581AA17E0015100D10000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14E5817B17E0015100D10000 /* ExciteBike */;
+			targetProxy = 14E581A917E0015100D10000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14E5818A17E0015100D10000 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E5818B17E0015100D10000 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14E5819317E0015100D10000 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E5819417E0015100D10000 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14E581AE17E0015100D10000 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E581AF17E0015100D10000 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14E581B317E0015100D10000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14E581B417E0015100D10000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14E581B617E0015100D10000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExciteBike/ExciteBike-Prefix.pch";
+				INFOPLIST_FILE = "ExciteBike/ExciteBike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14E581B717E0015100D10000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExciteBike/ExciteBike-Prefix.pch";
+				INFOPLIST_FILE = "ExciteBike/ExciteBike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		14E581B917E0015100D10000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExciteBike.app/ExciteBike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExciteBike/ExciteBike-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ExciteBikeTests/ExciteBikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		14E581BA17E0015100D10000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExciteBike.app/ExciteBike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExciteBike/ExciteBike-Prefix.pch";
+				INFOPLIST_FILE = "ExciteBikeTests/ExciteBikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14E5817717E0015100D10000 /* Build configuration list for PBXProject "ExciteBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E581B317E0015100D10000 /* Debug */,
+				14E581B417E0015100D10000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E581B517E0015100D10000 /* Build configuration list for PBXNativeTarget "ExciteBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E581B617E0015100D10000 /* Debug */,
+				14E581B717E0015100D10000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14E581B817E0015100D10000 /* Build configuration list for PBXNativeTarget "ExciteBikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E581B917E0015100D10000 /* Debug */,
+				14E581BA17E0015100D10000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14E5817417E0015100D10000 /* Project object */;
+}
