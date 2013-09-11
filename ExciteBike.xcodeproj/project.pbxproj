@@ -26,6 +26,34 @@
 		14E581B217E0015100D10000 /* ExciteBikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E581B117E0015100D10000 /* ExciteBikeTests.m */; };
 		14EF6B7D17E01B4A007D1A7C /* excitebike_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14EF6B7C17E01B4A007D1A7C /* excitebike_2@2x.png */; };
 		14EF6B7F17E01E07007D1A7C /* bottom-barrier@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14EF6B7E17E01E07007D1A7C /* bottom-barrier@2x.png */; };
+		90C9B06817E0264D00DF0343 /* ExcitebikeTrack1Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B04C17E0264D00DF0343 /* ExcitebikeTrack1Map.png */; };
+		90C9B06917E0264D00DF0343 /* ExcitebikeTrack2Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B04D17E0264D00DF0343 /* ExcitebikeTrack2Map.png */; };
+		90C9B06A17E0264D00DF0343 /* ExcitebikeTrack3Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B04E17E0264D00DF0343 /* ExcitebikeTrack3Map.png */; };
+		90C9B06B17E0264D00DF0343 /* ExcitebikeTrack4Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B04F17E0264D00DF0343 /* ExcitebikeTrack4Map.png */; };
+		90C9B06C17E0264D00DF0343 /* ExcitebikeTrack5Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B05017E0264D00DF0343 /* ExcitebikeTrack5Map.png */; };
+		90C9B06D17E0264D00DF0343 /* HurdleA.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B05117E0264D00DF0343 /* HurdleA.png */; };
+		90C9B06E17E0264D00DF0343 /* HurdleB.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B05217E0264D00DF0343 /* HurdleB.png */; };
+		90C9B06F17E0264D00DF0343 /* HurdleC.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B05317E0264D00DF0343 /* HurdleC.png */; };
+		90C9B07017E0264D00DF0343 /* HurdleD.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B05417E0264D00DF0343 /* HurdleD.png */; };
+		90C9B07117E0264D00DF0343 /* HurdleE.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B05517E0264D00DF0343 /* HurdleE.png */; };
+		90C9B07217E0264D00DF0343 /* HurdleG.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B05617E0264D00DF0343 /* HurdleG.png */; };
+		90C9B07317E0264D00DF0343 /* HurdleH.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B05717E0264D00DF0343 /* HurdleH.png */; };
+		90C9B07417E0264D00DF0343 /* HurdleIJ.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B05817E0264D00DF0343 /* HurdleIJ.png */; };
+		90C9B07517E0264D00DF0343 /* HurdleK.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B05917E0264D00DF0343 /* HurdleK.png */; };
+		90C9B07617E0264D00DF0343 /* HurdleL.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B05A17E0264D00DF0343 /* HurdleL.png */; };
+		90C9B07717E0264D00DF0343 /* HurdleMN.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B05B17E0264D00DF0343 /* HurdleMN.png */; };
+		90C9B07817E0264D00DF0343 /* HurdleO.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B05C17E0264D00DF0343 /* HurdleO.png */; };
+		90C9B07917E0264D00DF0343 /* HurdleP.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B05D17E0264D00DF0343 /* HurdleP.png */; };
+		90C9B07A17E0264D00DF0343 /* HurdleQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B05E17E0264D00DF0343 /* HurdleQ.png */; };
+		90C9B07B17E0264D00DF0343 /* HurdleR.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B05F17E0264D00DF0343 /* HurdleR.png */; };
+		90C9B07C17E0264D00DF0343 /* HurdleS.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B06017E0264D00DF0343 /* HurdleS.png */; };
+		90C9B07D17E0264D00DF0343 /* RedBike.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B06117E0264D00DF0343 /* RedBike.png */; };
+		90C9B07E17E0264D00DF0343 /* RedBikeCrashed.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B06217E0264D00DF0343 /* RedBikeCrashed.png */; };
+		90C9B07F17E0264D00DF0343 /* RedBikeMoving.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B06317E0264D00DF0343 /* RedBikeMoving.gif */; };
+		90C9B08017E0264D00DF0343 /* RedBikeTurnLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B06417E0264D00DF0343 /* RedBikeTurnLeft.png */; };
+		90C9B08117E0264D00DF0343 /* RedBikeTurnRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B06517E0264D00DF0343 /* RedBikeTurnRight.png */; };
+		90C9B08217E0264D00DF0343 /* SelectionFlag.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B06617E0264D00DF0343 /* SelectionFlag.png */; };
+		90C9B08317E0264D00DF0343 /* StartingMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C9B06717E0264D00DF0343 /* StartingMark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +92,34 @@
 		14E581B117E0015100D10000 /* ExciteBikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExciteBikeTests.m; sourceTree = "<group>"; };
 		14EF6B7C17E01B4A007D1A7C /* excitebike_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "excitebike_2@2x.png"; path = "Images/excitebike_2@2x.png"; sourceTree = "<group>"; };
 		14EF6B7E17E01E07007D1A7C /* bottom-barrier@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bottom-barrier@2x.png"; path = "Images/bottom-barrier@2x.png"; sourceTree = "<group>"; };
+		90C9B04C17E0264D00DF0343 /* ExcitebikeTrack1Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ExcitebikeTrack1Map.png; path = Images/ExcitebikeTrack1Map.png; sourceTree = "<group>"; };
+		90C9B04D17E0264D00DF0343 /* ExcitebikeTrack2Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ExcitebikeTrack2Map.png; path = Images/ExcitebikeTrack2Map.png; sourceTree = "<group>"; };
+		90C9B04E17E0264D00DF0343 /* ExcitebikeTrack3Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ExcitebikeTrack3Map.png; path = Images/ExcitebikeTrack3Map.png; sourceTree = "<group>"; };
+		90C9B04F17E0264D00DF0343 /* ExcitebikeTrack4Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ExcitebikeTrack4Map.png; path = Images/ExcitebikeTrack4Map.png; sourceTree = "<group>"; };
+		90C9B05017E0264D00DF0343 /* ExcitebikeTrack5Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ExcitebikeTrack5Map.png; path = Images/ExcitebikeTrack5Map.png; sourceTree = "<group>"; };
+		90C9B05117E0264D00DF0343 /* HurdleA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HurdleA.png; path = Images/HurdleA.png; sourceTree = "<group>"; };
+		90C9B05217E0264D00DF0343 /* HurdleB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HurdleB.png; path = Images/HurdleB.png; sourceTree = "<group>"; };
+		90C9B05317E0264D00DF0343 /* HurdleC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HurdleC.png; path = Images/HurdleC.png; sourceTree = "<group>"; };
+		90C9B05417E0264D00DF0343 /* HurdleD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HurdleD.png; path = Images/HurdleD.png; sourceTree = "<group>"; };
+		90C9B05517E0264D00DF0343 /* HurdleE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HurdleE.png; path = Images/HurdleE.png; sourceTree = "<group>"; };
+		90C9B05617E0264D00DF0343 /* HurdleG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HurdleG.png; path = Images/HurdleG.png; sourceTree = "<group>"; };
+		90C9B05717E0264D00DF0343 /* HurdleH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HurdleH.png; path = Images/HurdleH.png; sourceTree = "<group>"; };
+		90C9B05817E0264D00DF0343 /* HurdleIJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HurdleIJ.png; path = Images/HurdleIJ.png; sourceTree = "<group>"; };
+		90C9B05917E0264D00DF0343 /* HurdleK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HurdleK.png; path = Images/HurdleK.png; sourceTree = "<group>"; };
+		90C9B05A17E0264D00DF0343 /* HurdleL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HurdleL.png; path = Images/HurdleL.png; sourceTree = "<group>"; };
+		90C9B05B17E0264D00DF0343 /* HurdleMN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HurdleMN.png; path = Images/HurdleMN.png; sourceTree = "<group>"; };
+		90C9B05C17E0264D00DF0343 /* HurdleO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HurdleO.png; path = Images/HurdleO.png; sourceTree = "<group>"; };
+		90C9B05D17E0264D00DF0343 /* HurdleP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HurdleP.png; path = Images/HurdleP.png; sourceTree = "<group>"; };
+		90C9B05E17E0264D00DF0343 /* HurdleQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HurdleQ.png; path = Images/HurdleQ.png; sourceTree = "<group>"; };
+		90C9B05F17E0264D00DF0343 /* HurdleR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HurdleR.png; path = Images/HurdleR.png; sourceTree = "<group>"; };
+		90C9B06017E0264D00DF0343 /* HurdleS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HurdleS.png; path = Images/HurdleS.png; sourceTree = "<group>"; };
+		90C9B06117E0264D00DF0343 /* RedBike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RedBike.png; path = Images/RedBike.png; sourceTree = "<group>"; };
+		90C9B06217E0264D00DF0343 /* RedBikeCrashed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RedBikeCrashed.png; path = Images/RedBikeCrashed.png; sourceTree = "<group>"; };
+		90C9B06317E0264D00DF0343 /* RedBikeMoving.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = RedBikeMoving.gif; path = Images/RedBikeMoving.gif; sourceTree = "<group>"; };
+		90C9B06417E0264D00DF0343 /* RedBikeTurnLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RedBikeTurnLeft.png; path = Images/RedBikeTurnLeft.png; sourceTree = "<group>"; };
+		90C9B06517E0264D00DF0343 /* RedBikeTurnRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RedBikeTurnRight.png; path = Images/RedBikeTurnRight.png; sourceTree = "<group>"; };
+		90C9B06617E0264D00DF0343 /* SelectionFlag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SelectionFlag.png; path = Images/SelectionFlag.png; sourceTree = "<group>"; };
+		90C9B06717E0264D00DF0343 /* StartingMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StartingMark.png; path = Images/StartingMark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +228,34 @@
 		14EF6B7917E01AAB007D1A7C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				90C9B04C17E0264D00DF0343 /* ExcitebikeTrack1Map.png */,
+				90C9B04D17E0264D00DF0343 /* ExcitebikeTrack2Map.png */,
+				90C9B04E17E0264D00DF0343 /* ExcitebikeTrack3Map.png */,
+				90C9B04F17E0264D00DF0343 /* ExcitebikeTrack4Map.png */,
+				90C9B05017E0264D00DF0343 /* ExcitebikeTrack5Map.png */,
+				90C9B05117E0264D00DF0343 /* HurdleA.png */,
+				90C9B05217E0264D00DF0343 /* HurdleB.png */,
+				90C9B05317E0264D00DF0343 /* HurdleC.png */,
+				90C9B05417E0264D00DF0343 /* HurdleD.png */,
+				90C9B05517E0264D00DF0343 /* HurdleE.png */,
+				90C9B05617E0264D00DF0343 /* HurdleG.png */,
+				90C9B05717E0264D00DF0343 /* HurdleH.png */,
+				90C9B05817E0264D00DF0343 /* HurdleIJ.png */,
+				90C9B05917E0264D00DF0343 /* HurdleK.png */,
+				90C9B05A17E0264D00DF0343 /* HurdleL.png */,
+				90C9B05B17E0264D00DF0343 /* HurdleMN.png */,
+				90C9B05C17E0264D00DF0343 /* HurdleO.png */,
+				90C9B05D17E0264D00DF0343 /* HurdleP.png */,
+				90C9B05E17E0264D00DF0343 /* HurdleQ.png */,
+				90C9B05F17E0264D00DF0343 /* HurdleR.png */,
+				90C9B06017E0264D00DF0343 /* HurdleS.png */,
+				90C9B06117E0264D00DF0343 /* RedBike.png */,
+				90C9B06217E0264D00DF0343 /* RedBikeCrashed.png */,
+				90C9B06317E0264D00DF0343 /* RedBikeMoving.gif */,
+				90C9B06417E0264D00DF0343 /* RedBikeTurnLeft.png */,
+				90C9B06517E0264D00DF0343 /* RedBikeTurnRight.png */,
+				90C9B06617E0264D00DF0343 /* SelectionFlag.png */,
+				90C9B06717E0264D00DF0343 /* StartingMark.png */,
 				14EF6B7E17E01E07007D1A7C /* bottom-barrier@2x.png */,
 				14EF6B7C17E01B4A007D1A7C /* excitebike_2@2x.png */,
 			);
@@ -255,12 +339,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C9B06817E0264D00DF0343 /* ExcitebikeTrack1Map.png in Resources */,
+				90C9B07217E0264D00DF0343 /* HurdleG.png in Resources */,
+				90C9B06E17E0264D00DF0343 /* HurdleB.png in Resources */,
 				14E5818C17E0015100D10000 /* InfoPlist.strings in Resources */,
+				90C9B08117E0264D00DF0343 /* RedBikeTurnRight.png in Resources */,
+				90C9B08017E0264D00DF0343 /* RedBikeTurnLeft.png in Resources */,
 				14E5819F17E0015100D10000 /* Images.xcassets in Resources */,
+				90C9B07517E0264D00DF0343 /* HurdleK.png in Resources */,
+				90C9B06D17E0264D00DF0343 /* HurdleA.png in Resources */,
+				90C9B07F17E0264D00DF0343 /* RedBikeMoving.gif in Resources */,
 				14E5819D17E0015100D10000 /* Spaceship.png in Resources */,
+				90C9B07B17E0264D00DF0343 /* HurdleR.png in Resources */,
+				90C9B06B17E0264D00DF0343 /* ExcitebikeTrack4Map.png in Resources */,
+				90C9B07E17E0264D00DF0343 /* RedBikeCrashed.png in Resources */,
+				90C9B07117E0264D00DF0343 /* HurdleE.png in Resources */,
+				90C9B07417E0264D00DF0343 /* HurdleIJ.png in Resources */,
+				90C9B06917E0264D00DF0343 /* ExcitebikeTrack2Map.png in Resources */,
+				90C9B07717E0264D00DF0343 /* HurdleMN.png in Resources */,
+				90C9B07617E0264D00DF0343 /* HurdleL.png in Resources */,
+				90C9B06C17E0264D00DF0343 /* ExcitebikeTrack5Map.png in Resources */,
 				14E5819517E0015100D10000 /* Main.storyboard in Resources */,
+				90C9B07317E0264D00DF0343 /* HurdleH.png in Resources */,
+				90C9B08217E0264D00DF0343 /* SelectionFlag.png in Resources */,
 				14EF6B7D17E01B4A007D1A7C /* excitebike_2@2x.png in Resources */,
+				90C9B07917E0264D00DF0343 /* HurdleP.png in Resources */,
+				90C9B07D17E0264D00DF0343 /* RedBike.png in Resources */,
+				90C9B07A17E0264D00DF0343 /* HurdleQ.png in Resources */,
+				90C9B06A17E0264D00DF0343 /* ExcitebikeTrack3Map.png in Resources */,
+				90C9B07017E0264D00DF0343 /* HurdleD.png in Resources */,
+				90C9B07817E0264D00DF0343 /* HurdleO.png in Resources */,
+				90C9B07C17E0264D00DF0343 /* HurdleS.png in Resources */,
 				14EF6B7F17E01E07007D1A7C /* bottom-barrier@2x.png in Resources */,
+				90C9B08317E0264D00DF0343 /* StartingMark.png in Resources */,
+				90C9B06F17E0264D00DF0343 /* HurdleC.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
