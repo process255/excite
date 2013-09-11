@@ -24,6 +24,8 @@
 		14E581A817E0015100D10000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E5818317E0015100D10000 /* UIKit.framework */; };
 		14E581B017E0015100D10000 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14E581AE17E0015100D10000 /* InfoPlist.strings */; };
 		14E581B217E0015100D10000 /* ExciteBikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E581B117E0015100D10000 /* ExciteBikeTests.m */; };
+		14EF6B7D17E01B4A007D1A7C /* excitebike_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14EF6B7C17E01B4A007D1A7C /* excitebike_2@2x.png */; };
+		14EF6B7F17E01E07007D1A7C /* bottom-barrier@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14EF6B7E17E01E07007D1A7C /* bottom-barrier@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		14E581AD17E0015100D10000 /* ExciteBikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExciteBikeTests-Info.plist"; sourceTree = "<group>"; };
 		14E581AF17E0015100D10000 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		14E581B117E0015100D10000 /* ExciteBikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExciteBikeTests.m; sourceTree = "<group>"; };
+		14EF6B7C17E01B4A007D1A7C /* excitebike_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "excitebike_2@2x.png"; path = "Images/excitebike_2@2x.png"; sourceTree = "<group>"; };
+		14EF6B7E17E01E07007D1A7C /* bottom-barrier@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bottom-barrier@2x.png"; path = "Images/bottom-barrier@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,7 @@
 		14E5818817E0015100D10000 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				14EF6B7917E01AAB007D1A7C /* Images */,
 				14E5818917E0015100D10000 /* ExciteBike-Info.plist */,
 				14E5818A17E0015100D10000 /* InfoPlist.strings */,
 				14E5818D17E0015100D10000 /* main.m */,
@@ -162,6 +167,15 @@
 				14E581AE17E0015100D10000 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14EF6B7917E01AAB007D1A7C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				14EF6B7E17E01E07007D1A7C /* bottom-barrier@2x.png */,
+				14EF6B7C17E01B4A007D1A7C /* excitebike_2@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +259,8 @@
 				14E5819F17E0015100D10000 /* Images.xcassets in Resources */,
 				14E5819D17E0015100D10000 /* Spaceship.png in Resources */,
 				14E5819517E0015100D10000 /* Main.storyboard in Resources */,
+				14EF6B7D17E01B4A007D1A7C /* excitebike_2@2x.png in Resources */,
+				14EF6B7F17E01E07007D1A7C /* bottom-barrier@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +487,7 @@
 				14E581B717E0015100D10000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14E581B817E0015100D10000 /* Build configuration list for PBXNativeTarget "ExciteBikeTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +496,7 @@
 				14E581BA17E0015100D10000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
